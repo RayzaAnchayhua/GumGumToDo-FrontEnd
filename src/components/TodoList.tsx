@@ -17,7 +17,7 @@ const TodoList = () => {
 
   return (
     <div
-      className="container bg-gray-700 mt-20 p-8
+      className="container bg-yellow-400 mt-20 p-8
         rounded-md"
     >
       <Form createTodo={createTodo} />

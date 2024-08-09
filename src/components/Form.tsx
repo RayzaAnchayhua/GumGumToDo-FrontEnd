@@ -19,14 +19,14 @@ const Form = ({ createTodo }: FormType) => {
       <input
         type="text"
         className="outline-none bg-transparent border 
-            border-gray-500 p-4 w-[300px] text-white mb-8 rounded placeholder:text-gray-300"
+            border-black p-4 w-[300px] text-black mb-8 rounded placeholder:text-black-300"
         placeholder="Qual são suas tarefas hoje?"
         onChange={(e) => setValue(e.target.value)}
         value={value}
       />
       <button
-        className="bg-purple-700 border-none p-2 
-            text-black cursor-poiter rounded ml-2"
+        className="bg-red-600 border-black p-4 
+            text-white cursor-poiter rounded ml-2"
       >
         Adicionar tarefa
       </button>
