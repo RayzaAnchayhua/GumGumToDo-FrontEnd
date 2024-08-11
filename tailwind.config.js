@@ -7,7 +7,15 @@ export default {
     "./src/**/*.{ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        acme: ['"Acme"', "sans-serif"],
+      },
+      colors: {
+        primary: "#F8DE3C",
+        "one-piece-color": "#C8472C",
+      },
+    },
+    plugins: [],
   },
-  plugins: [],
 };
