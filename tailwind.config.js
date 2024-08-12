@@ -15,6 +15,9 @@ export default {
         primary: "#F8DE3C",
         "one-piece-color": "#C8472C",
       },
+      textStroke: {
+        black: '1px #000'
+      }
     },
     plugins: [],
   },
