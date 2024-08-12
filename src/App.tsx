@@ -1,11 +1,11 @@
 import Header from "./components/Header";
-import Todo from "./components/Todo";
+import ListTodo from "./components/ListTodo";
 
 function App() {
   return (
-    <div className="bg-primary grid min-h-screen">
+    <div className="bg-primary min-h-screen ">
       <Header />
-      <Todo />
+      <ListTodo />
     </div>
   );
 }
