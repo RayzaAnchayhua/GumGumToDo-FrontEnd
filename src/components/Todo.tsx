@@ -16,7 +16,7 @@ const Todo = () => {
            focus:ring-white focus:ring-2 text-stroke-black"
         />
       </div>
-      <button>ADD +</button>
+      <button className="border-none rounded-full bg-black w-32 h-14 text-white text-lg font-medium cursor-pointer">ADD +</button>
       <img className="w-12 justify-end" src={todo_icon} alt=" TodoList" />
     </div>
   );
