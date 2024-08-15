@@ -14,6 +14,7 @@ export default {
       colors: {
         primary: "#F8DE3C",
         "one-piece-color": "#C8472C",
+        secundary: "#0B3075",
       },
       textStroke: {
         black: '1px #000'
