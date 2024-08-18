@@ -2,14 +2,23 @@ import Todo from "./Todo";
 import TodoItems from "./TodoItems";
 
 const ListTodo = () => {
+  const todoList = [
+    {
+      text: "tarefa1",
+    },
+    {
+      text: "tarefe2",
+    },
+    {
+      text: "tarefa3",
+    },
+  ];
   return (
-   
-    <div className="flex justify-center items-center mt-4 gap-4 flex-col">
-      {todoList.map(()=>{
-        return <TodoItems key={index} text={item.text}/> 
-
+    <div className="flex justify-center items-center mt-8 gap-1 flex-col">
+      <Todo />
+      {todoList.map((item, index) => {
+        return <TodoItems key={index} text={item.text} />;
       })}
-       <Todo />
     </div>
   );
 };

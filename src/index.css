@@ -10,4 +10,6 @@
   font: inherit;
   vertical-align: baseline;
   font-family: "Acme";
- }
+  color: white;
+  -webkit-text-stroke: 1px black;
+}

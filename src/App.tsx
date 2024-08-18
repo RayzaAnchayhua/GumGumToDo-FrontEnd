@@ -8,8 +8,8 @@ function App() {
     <div className="bg-primary min-h-screen ">
       <Header />
       <ListTodo />
-      <img className="w-[20%] fixed bottom-0 right-0" src={luffyImage} alt="" />
-      <Footer/>
+      <img className="w-[20%] fixed bottom-0 right-0 " src={luffyImage} alt="" />
+      <Footer />
     </div>
   );
 }
